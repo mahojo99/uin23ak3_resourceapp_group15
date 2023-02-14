@@ -6,7 +6,7 @@
     --lightgrey: #F9F9F9;
     --blue: #4EE7EB;
     --white: #FFFFFF;
-    --maxwidth: 650px;
+    --maxwidth: 657px;
 }
 
 body {
@@ -55,39 +55,37 @@ header {
 
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
+nav {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  
+    a {
+      color: var(--darkgrey);
+      display: inline-block;
+      background-color: var(--lightgrey);
+      text-decoration: none;
+      padding: 1rem;
+      text-transform: uppercase;
+      transition: ease-in-out .4s;
+      border-color: var(--darkgrey);
+      border-style: solid;
+      border-bottom: none;
+      border-width: thin;
+      white-space: nowrap;
 
-nav a {
-    color: var(--darkgrey);
-    display: inline-block;
-    background-color: var(--lightgrey);
-    text-decoration: none;
-    padding: 1rem;
-    text-transform: uppercase;
-    transition: ease-in-out .4s;
-    border-color: var(--darkgrey);
-    border-style: solid;
-    border-bottom: none;
-    border-width: thin;
-
-
-}
-
-nav a:hover {
-    color: var(--white);
-    background-color: var(--blue);
-    border-color: var(--blue);
-}
-
-
-
-
-
-
+      
+  
+      &:hover {
+        color: var(--white);
+        background-color: var(--blue);
+        border-color: var(--blue);
+      }
+    }
+  }
+  
 
 .hidden {
     visibility: hidden;
