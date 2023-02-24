@@ -1,4 +1,4 @@
-import articles from './ressurser';
+import articles from '../ressurser';
 import ArticleContent from './ArticleContent';
 
 export default function ContenPage({}){
