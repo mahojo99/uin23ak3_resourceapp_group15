@@ -1,9 +1,9 @@
 import Nav from './Nav';
-
+import Header from './Header';
 export default function ContenPage({ }) {
     return (
         <>
-            <h1>Hallo</h1>
+            <Header />
             <Nav />
         </>
 
