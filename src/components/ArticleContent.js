@@ -9,9 +9,8 @@ export default function ArticleContent({ name, cat, link }) {
     return (
         <article className="">
             <ArtTitle name={name} />
-            <ArtCategory cat={cat} />
             <ArtUrl link={link} />
-
+            <ArtCategory cat={cat} />
         </article>
     )
 }

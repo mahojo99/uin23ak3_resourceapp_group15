@@ -1,3 +1,3 @@
 export default function ArtUrl({ link }) {
-    return <li><a>{link}</a></li>
+    return <li><a href="#">{link}</a></li>
 }
