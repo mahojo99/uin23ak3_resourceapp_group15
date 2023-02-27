@@ -6,6 +6,6 @@ export default function CSS() {
         <div id="content">
             {Resources.map(item => item.category === "css" ? <ArticleContent name={item.title} url={item.url} cat={item.category} /> : null)}
         </div>
-            
+
     )
 }
