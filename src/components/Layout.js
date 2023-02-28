@@ -1,11 +1,19 @@
 import Nav from './Nav';
 import Header from './Header';
-export default function ContenPage({ }) {
-    return (
-        <>
-            <Header />
-            <Nav />
-        </>
+import ArticleContent from './ArticleContent'
 
+export default function Layout() {
+    //LayoutBranch
+    return (
+        <body>
+            <div className='container'>
+                <Header />
+                <Nav />
+                <main>
+                    <ArticleContent />
+                </main>
+
+            </div>
+        </body>
     )
 }
