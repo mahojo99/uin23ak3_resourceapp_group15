@@ -1,26 +1,39 @@
-import logo from './logo.svg';
 import './css/main.css';
-//Branch Delivery
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/Layout';
+import CSS from './pages/CSS'
+import JAVASCRIPT from './pages/JAVASCRIPT';
+import HTML from './pages/HTML';
+import REACT from './pages/REACT';
+import SANITY from './pages/SANITY';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Routes>
+        <Route index path='/html' element={<HTML />} />
+        <Route path='/css' element={<CSS />} />
+        <Route path='/javascript' element={<JAVASCRIPT />} />
+        <Route path='/react' element={<REACT />} />
+        <Route path='/sanity' element={<SANITY />} />
+      </Routes>
+    </Layout>
+
+
   );
+
+  /*return (
+
+    <Routes>
+      <Route index element={<Layout />} />
+      <Route path='/html' element={<HTML />} />
+      <Route path='/css' element={<CSS />} />
+      <Route path='/javascript' element={<JAVASCRIPT />} />
+      <Route path='/react' element={<REACT />} />
+      <Route path='/sanity' element={<SANITY />} />
+    </Routes>
+
+  );*/
 }
 
-export default App;
+
