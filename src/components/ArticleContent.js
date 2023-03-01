@@ -3,14 +3,13 @@ import ArtTitle from "./ArtTitle";
 import ArtUrl from "./ArtUrl";
 
 
-export default function ArticleContent({ name, cat, url }) {
+
+export default function ArticleContent({url, title}) {
 
     return (
 
-        <article>
-            <ArtTitle name={name} />
-            <ArtUrl link={url} title={name} />
-            <ArtCategory cat={cat} />
-        </article>
+        <li>
+            <a href={url}>{title}</a>
+        </li>
     )
 }

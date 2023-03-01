@@ -8,9 +8,9 @@ export default function Layout({children}) {
     <div className='container'>
         <Header />
         <Nav />
-            <main>
-                {children}
-            </main>
+        <main>
+            {children}
+        </main>
     </div>
     
     )
