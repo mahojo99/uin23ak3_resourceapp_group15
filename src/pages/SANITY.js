@@ -1,4 +1,4 @@
-import ArticleContent from "../components/ArticleContent";
+
 import Resources from '../components/Resources';
 
 export default function SANITY() {
@@ -6,6 +6,6 @@ export default function SANITY() {
         <article>
             <Resources id="headless-cms" />
         </article>
-            
+
     )
 }

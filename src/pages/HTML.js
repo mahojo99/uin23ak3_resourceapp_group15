@@ -1,16 +1,16 @@
-import ArticleContent from '../components/ArticleContent';
+
 import Resources from '../components/Resources';
 
 
-export default function HTML(){
-    return(
+export default function HTML() {
+    return (
         <article>
             <Resources id="html" />
         </article>
-        
+
 
     )
-    
+
 }
 
 

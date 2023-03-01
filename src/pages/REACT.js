@@ -1,4 +1,4 @@
-import ArticleContent from "../components/ArticleContent";
+
 import Resources from '../components/Resources';
 
 export default function REACT() {
@@ -6,6 +6,6 @@ export default function REACT() {
         <article>
             <Resources id="react" />
         </article>
-            
+
     )
 }

@@ -1,4 +1,4 @@
-import ArticleContent from "../components/ArticleContent";
+
 import Resources from '../components/Resources';
 
 export default function JAVASCRIPT() {
@@ -6,6 +6,6 @@ export default function JAVASCRIPT() {
         <article>
             <Resources id="javascript" />
         </article>
-            
+
     )
 }

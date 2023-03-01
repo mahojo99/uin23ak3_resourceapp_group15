@@ -1,4 +1,4 @@
-import ArticleContent from "../components/ArticleContent";
+
 import Resources from '../components/Resources';
 
 export default function CSS() {
@@ -6,6 +6,6 @@ export default function CSS() {
         <article>
             <Resources id="css" />
         </article>
-            
+
     )
 }
