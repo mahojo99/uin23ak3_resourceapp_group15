@@ -21,19 +21,6 @@ export default function App() {
 
 
   );
-
-  /*return (
-
-    <Routes>
-      <Route index element={<Layout />} />
-      <Route path='/html' element={<HTML />} />
-      <Route path='/css' element={<CSS />} />
-      <Route path='/javascript' element={<JAVASCRIPT />} />
-      <Route path='/react' element={<REACT />} />
-      <Route path='/sanity' element={<SANITY />} />
-    </Routes>
-
-  );*/
 }
 
 
