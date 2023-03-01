@@ -9,6 +9,20 @@ import SANITY from './pages/SANITY';
 
 export default function App() {
   return (
+    <Layout>
+      <Routes>
+        <Route index path='/html' element={<HTML />} />
+        <Route path='/css' element={<CSS />} />
+        <Route path='/javascript' element={<JAVASCRIPT />} />
+        <Route path='/react' element={<REACT />} />
+        <Route path='/sanity' element={<SANITY />} />
+      </Routes>
+    </Layout>
+    
+
+  );
+
+  /*return (
 
     <Routes>
       <Route index element={<Layout />} />
@@ -19,7 +33,7 @@ export default function App() {
       <Route path='/sanity' element={<SANITY />} />
     </Routes>
 
-  );
+  );*/
 }
 
 
