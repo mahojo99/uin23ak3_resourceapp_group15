@@ -6,7 +6,7 @@ $darkgrey: #5A5A5A;
 $lightgrey: #F9F9F9;
 $blue: #4EE7EB;
 $white: #FFFFFF;
-$maxwidth: 650px;
+$maxwidth: 680px;
 
 :root {
   --darkgrey: #($darkgrey);
@@ -82,7 +82,7 @@ nav {
     border-style: solid;
     border-bottom: none;
     border-width: thin;
-    white-space: nowrap;
+    margin: auto 5px auto 0;
 
     &:hover {
       color: $white;
@@ -92,7 +92,7 @@ nav {
   }
 }
 
-
+/*
 .hidden {
   visibility: hidden;
   opacity: 0;
@@ -100,4 +100,4 @@ nav {
   top: 0;
   left: 0;
 
-}
+}*/

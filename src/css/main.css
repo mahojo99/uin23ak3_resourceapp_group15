@@ -11627,7 +11627,7 @@ body {
 
 main {
   position: relative;
-  width: 650px;
+  width: 680px;
   max-width: 100%;
   color: #5A5A5A;
   padding: 1rem;
@@ -11639,7 +11639,7 @@ main {
 }
 
 div.container {
-  max-width: 650px;
+  max-width: 680px;
   margin: 40px auto;
   background-color: #FFFFFF;
   flex-wrap: wrap;
@@ -11677,7 +11677,7 @@ nav a {
   border-style: solid;
   border-bottom: none;
   border-width: thin;
-  white-space: nowrap;
+  margin: auto 5px auto 0;
 }
 nav a:hover {
   color: #FFFFFF;
@@ -11685,12 +11685,14 @@ nav a:hover {
   border-color: #4EE7EB;
 }
 
+/*
 .hidden {
   visibility: hidden;
   opacity: 0;
   position: absolute;
   top: 0;
   left: 0;
-}
+
+}*/
 
 /*# sourceMappingURL=main.css.map */
